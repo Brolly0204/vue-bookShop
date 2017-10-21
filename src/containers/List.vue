@@ -4,7 +4,7 @@
     <scroll-wrapper ref="scrollWrapper" :isClick="isClick">
       <ul class="bookList" v-if="bookLists.length">
         <li v-for="book in bookLists">
-          <img v-lazy="book.bookCover" alt="">
+          <div class="bookCover"><img v-lazy="book.bookCover" alt=""></div>
           <div class="context">
             <h3>{{book.bookName}}</h3>
             <p class="info">{{book.bookInfo}}</p>
@@ -110,23 +110,28 @@ export default {
         display: flex;
         padding: 15px 0;
         border-bottom: 1px solid rgba(145, 145, 145, 0.3);
-        img {
-          width: 150px;
-          height: 130px;
-        }
-        div.context {
+        .bookCover {
           display: flex;
           flex: 2;
+          align-items: center;
+          img {
+            width: 100%;
+          }
+        }
+        .context {
+          display: flex;
+          flex: 3;
           flex-direction: column;
           justify-content: space-around;
           margin-left: 15px;
           font-size: 18px;
           .info {
             color: #666;
-            font-size: 16px;
+            font-size: 14px;
           }
           .price {
             color: red;
+            font-size: 16px;
           }
           .btn-group {
             width: 100%;

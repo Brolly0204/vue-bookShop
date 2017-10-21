@@ -7,12 +7,12 @@
             <swiper :swiperSlides='sliders' v-if='sliders.length'></swiper>
             <loading v-else></loading>
           </div>
-          <h3>最新上架</h3>
+          <h3><i class="iconfont icon-tushuguan-copy"></i>最新上架</h3>
           <ul class="hot-list" v-if='books.length'>
             <li  v-for="(book, index) in books" :key="index">
               <img v-lazy="book.bookCover" alt="">
-              <span>{{book.bookName}}</span>
-              <b>{{book.bookPrice | currency}}</b>
+              <p class="bookName">{{book.bookName}}</p>
+              <b class="price">{{book.bookPrice | currency}}</b>
             </li>
           </ul>
           <loading v-else></loading>
@@ -96,6 +96,10 @@ export default {
       padding-left: 20px;
       line-height: 35px;
       font-weight: normal;
+      i {
+        margin-right: 3px;
+        color: #666;
+      }
     }
     .hot-list {
       display: flex;
@@ -103,12 +107,19 @@ export default {
       li {
         display: flex;
         padding-top: 10px;
+        margin-bottom: 10px;
         align-items: center;
         flex-direction: column;
         width: 50%;
         img {
           width: 150px;
           height: 150px;
+        }
+        .bookName {
+          margin-top: 10px;
+        }
+        .price {
+          color: red;
         }
       }
     }
