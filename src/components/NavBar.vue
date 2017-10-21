@@ -30,7 +30,7 @@ export default {
     width 100%
     height 60px
     display flex
-    border-top 1px solid #cacaca
+    border-top 1px solid rgba(202, 202, 202, 0.3)
     z-index 111
     background-color #fff
     a
