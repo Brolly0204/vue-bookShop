@@ -22,7 +22,8 @@ export default {
         loop: true,
         setWrapperSize: true,
         pagination: '.swiper-pagination',
-        observeParents: true
+        observeParents: true,
+        autoplayDisableOnInteraction: false
       }
     };
   }

@@ -61,9 +61,8 @@ export default {
     _initScroll() {
       this.$refs.scrollWrapper.initScroll();
     },
-    _refresh() {
+    _refresh() { // 数据操作后重新计算滚动区域
       this.$nextTick(() => {
-        console.log('refresh');
         if (this.$refs.scrollWrapper.scroll) {
           this.$refs.scrollWrapper.scroll.refresh();
         }

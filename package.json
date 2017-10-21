@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
-    "mock": "node ./src-one/mock/server"
+    "mock": "node ./src/mock/server"
   },
   "dependencies": {
     "axios": "^0.16.2",

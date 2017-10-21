@@ -29,14 +29,14 @@
   },
   {
     "bookCover": "http://img3m0.ddimg.cn/68/21/1900669190-1_b_0.jpg",
-    "bookName": "vue路由123",
+    "bookName": "vue路由指南",
     "bookPrice": 18.3,
     "bookInfo": "张三 等著",
     "id": 5
   },
   {
     "bookCover": "http://img3m1.ddimg.cn/55/0/25064281-1_b_3.jpg",
-    "bookName": "vue路由",
+    "bookName": "vue实战讲解",
     "bookPrice": 18.3,
     "bookInfo": "张三 等著",
     "id": 6
@@ -50,7 +50,7 @@
   },
   {
     "bookCover": "http://img3m0.ddimg.cn/68/21/1900669190-1_b_0.jpg",
-    "bookName": "vue路由123",
+    "bookName": "vue技术栈",
     "bookPrice": 18.3,
     "bookInfo": "张三 等著",
     "id": 8
@@ -59,14 +59,14 @@
     "bookCover": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/TB1uhVnRXXXXXXcaXXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg_.webp",
     "bookName": "node.js",
     "bookPrice": "34",
-    "bookInfo": "李文利著",
+    "bookInfo": "李文利 著",
     "id": 9
   },
   {
     "bookCover": "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/TB1uhVnRXXXXXXcaXXXXXXXXXXX_!!0-item_pic.jpg_230x230.jpg_.webp",
     "bookName": "react native",
     "bookPrice": "46",
-    "bookInfo": "李大神著",
+    "bookInfo": "李大神 著",
     "id": 10
   },
   {
